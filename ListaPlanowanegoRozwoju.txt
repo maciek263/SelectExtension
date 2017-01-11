@@ -7,8 +7,9 @@
 - wy³apanie b³edów wyœwietlanych w chrome
 - wywo³anie okna nie dynamicznego
 - favicona selectowa
+
+
+
+
 - wrzucenie na githuba
-
-
-
 - widocznoœæ liczby do odjêcia w optimie (do przemyœlenia jescze)

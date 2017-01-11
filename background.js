@@ -60,7 +60,7 @@ function count(info) {
 }
 
 function newWindow() {
-    var newWindow = window.open('', 'okno', 'toolbar=no,location=on,fullscreen=no,resizable=on,width=250,height=350,top=50,left=50');
+    var newWindow = window.open('', 'okno', 'toolbar=no,location=on,fullscreen=no,resizable=on,width=280,height=350,top=50,left=50');
     with (newWindow) {
         document.writeln('<html>');
         document.writeln('<head>');
