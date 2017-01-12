@@ -57,6 +57,7 @@ function count(info) {
 
 	newWindow();
 	//resizeWin() 
+	//habababa
 }
 
 function newWindow() {
