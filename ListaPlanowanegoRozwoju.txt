@@ -1,15 +1,16 @@
 
-- zpiêcie wszytskiego w jedno i automatyczne rozpoznawanie co chcesz zrobiæ
+- zpiêcie wszytskiego w jedno 
+- automatyczne rozpoznawanie co chcesz zrobiæ
 - rozbudowa opcji (w rozszerzeniach)
 - wygl¹d siatki (gird view)
 
-- widocznoœæ wartoœæi bez zaokr¹glenia
-- wy³apanie b³edów wyœwietlanych w chrome
 - wywo³anie okna nie dynamicznego
-- favicona selectowa
-
+- FireFox
 
 
 
 - wrzucenie na githuba
 - widocznoœæ liczby do odjêcia w optimie (do przemyœlenia jescze)
+- widocznoœæ wartoœæi bez zaokr¹glenia
+- favicona selectowa
+- wy³apanie b³edów wyœwietlanych w chrome

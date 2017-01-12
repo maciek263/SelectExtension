@@ -3,20 +3,24 @@
    "background": {
       "scripts": [ "background.js" ]
    },
+	"browser_action": {
+      "default_icon": "favicon.png",
+      "default_title": "SelectExtension"
+   },
  
     
    "description": "SelectExtension; sugerowana jedyna sluszna przegloądarka Opera",
-    "developer": {"name": "Maciek"},
+    
     
    "icons": {
-     "128": "icon_128.png",
-     "16": "icon_16.png",
-     "48": "icon_48.png"
+     "128": "favicon_128.png",
+     "16": "favicon_16.png",
+     "48": "favicon_48.png"
    },
 
    "manifest_version": 2,
    "name": "SelectExtension",
     "options_page": "options.html",
    "permissions": [ "tabs", "contextMenus", "http://www.google.pl/search"],
-   "version": "0.2"
+   "version": "2.0"
 }

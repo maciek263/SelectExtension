@@ -73,7 +73,7 @@ function newWindow() {
 		var proc = 5;
 		for (var i=0; i<tab.length; i++) {
 			proc = proc+5;
-			document.writeln('<font size="3">'+proc+'% = '+tab[i]+'</font>'+' Opti '+optima[i]+' War '+firstValue[i]+'</br>');
+			document.writeln('<font size="3">'+proc+'% = '+tab[i]+'</font>'+' Opti -'+optima[i]+' War '+firstValue[i]+'</br>');
 			}
         document.writeln('</body>');
         document.writeln('</html>');
