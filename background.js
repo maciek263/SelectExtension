@@ -43,8 +43,8 @@ function count(info) {
                 tab[i] = percent;
             }
 			
-			//wycinanie wartosci 309 i wiekszych 
-			if (tab[i] != (209 || 109))
+			//wycinanie wartosci 209 i wiekszych 
+			if (tab[i] != (109))
 				if (tab[i] % 100 == 9) {
 					tab[i] -= 10;
 					}
