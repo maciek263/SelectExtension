@@ -5,6 +5,7 @@ chrome.contextMenus.create( {
 	onclick: count
 });
 
+
 //chrome.browser_action.onClicked.addListener(function(tab){count});
 
 var equal = 0;
@@ -24,14 +25,13 @@ function count(info) {
     
     select = parseInt(select);
 
-   // var tab = [];
-    var i = 0; 
+	var i = 0;	
     var percent = 0;
     
     for (var x = 10; x < 55; x+=5){
             var equal = (select * x)/100;
             percent = select - equal;
-			firstValue [i] = percent;	//wartosc przed zaokragleniami
+			firstValue[i] = percent;	//wartosc przed zaokragleniami
             if (percent % 10 >= 5) {
                 percent += (10 - (percent % 10));
                 percent--;
@@ -67,7 +67,7 @@ function newWindow() {
         document.writeln('<head>');
         document.writeln('<title>Przecena</title>');
         document.writeln('<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />');
-		 document.writeln('<link rel="Stylesheet" type="text/css" href="style.css" />');
+		document.writeln('<link rel="Stylesheet" type="text/css" href="style.css" />');
         document.writeln('</head>');
         document.writeln('<body>');
 		document.writeln('Przecena z '+select+'</br></br>');
