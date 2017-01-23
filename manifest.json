@@ -24,3 +24,4 @@
    "permissions": [ "tabs", "contextMenus", "http://www.google.pl/search"],
    "version": "2.0"
 }
+
